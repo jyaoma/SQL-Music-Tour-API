@@ -4,6 +4,7 @@
     "password": "CvsC-1129221",
     "database": "music_tour",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "logging": "true"
   }
 }
