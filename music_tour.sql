@@ -6,7 +6,7 @@ create table band (
 	end_time timestamp
 );
 
-create table "event" (
+create table "events" (
 	event_id serial,
 	name varchar(255),
 	date date,

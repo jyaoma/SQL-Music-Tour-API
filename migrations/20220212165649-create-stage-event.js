@@ -1,7 +1,7 @@
 "use strict";
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable("stage_event", {
+    await queryInterface.createTable("stage_events", {
       stage_event_id: {
         allowNull: false,
         autoIncrement: true,
@@ -19,6 +19,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable("stage_event");
+    await queryInterface.dropTable("stage_events");
   },
 };
